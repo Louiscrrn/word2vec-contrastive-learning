@@ -1,0 +1,5 @@
+checkpoints/old
+checkpoints/historics
+checkpoints/other
+__pycache__/
+*.pyc 
