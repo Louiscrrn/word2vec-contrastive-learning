@@ -2,12 +2,12 @@
 
 This project implements the Word2Vec (Skip-Gram with Negative Sampling) model from scratch using PyTorch, with the aim of examining it through the modern lens of contrastive self-supervised learning.
 
-The objective is to learn meaningful word representations from unlabeled data (WikiText-2) and to evaluate the transferability of these representations on a supervised downstream task (AG News classification).
+The objective is to learn meaningful word r√epresentations from unlabeled data (WikiText-2) and to evaluate the transferability of these representations on a supervised downstream task (AG News classification).
 
 ## Project Structure
 
 ```
-word2vec-as-contrastive-learning/
+word2vec-as-contrastive-learning/ı
 ├── assets/                           # Result plots and figures
 ├── notebooks/
 │   ├── word2vec.ipynb                # Word2Vec model training on WikiText-2
@@ -40,7 +40,7 @@ The experiments confirm the effectiveness of pre-training:
 
 4.  **Ablation on `K` (Negative Sample Ratio)**: A smaller ratio of negative samples (e.g., **`K=1`**) produced the best classification results. Larger values of `K` seemed to focus the optimization too much on distinguishing random pairs, resulting in less informative embeddings for this task.
 
-![Ablation study on negative samples K](assets/ablation_K.png)  
+![Ablation study on negative samples K](assets/ablation_k.png)  
 *Impact of negative samples K on validation accuracy and loss.*
 
 ## How to Run
