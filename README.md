@@ -18,7 +18,7 @@ word2vec-as-contrastive-learning/ı
 ```
 
 ## Results Summary
-
+ 
 The experiments confirm the effectiveness of pre-training:
 
 1.  **Pre-training vs. Vanilla**: Initializing the classifier with pre-trained Word2Vec embeddings **outperforms** a randomly initialized model, leading to lower validation loss and higher accuracy.
